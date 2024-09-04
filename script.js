@@ -22,7 +22,7 @@ document.querySelector('.check').addEventListener('click', function () {
         document.querySelector('.number').textContent = secretNumber;
 
         document.querySelector('body').style.backgroundColor = "green";
-        document.querySelector('.number').style.width = "30rem";
+        document.querySelector('.number').style.width = "15rem";
 
         if (score > highscore) {
             highscore = score;
